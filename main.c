@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "functions.h"
+#include "menu.h"
 
 const int ITEM_MAX_SIZE = 30;
 
@@ -13,6 +14,8 @@ void save_file(char **item, int *quantity, int quant);
 void print_table(char **item, int *quantity, int quant);
 
 void list_items(char **item, int quant);
+
+void menu();
 
 int main()
 {
@@ -41,11 +44,7 @@ int main()
     printf("Bem vindo ao sistema de controle de estoque\n");
     while (1)
     {
-        printf("Selecione uma operacao\n");
-        printf("1 - Listar items\n");
-        printf("2 - Adicionar items\n");
-        printf("3 - Remover items\n");
-        printf("4 - Sair\n");
+        menu();
 
         scanf("%d", &operation);
 
