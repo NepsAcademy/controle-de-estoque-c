@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 int quant_items()
 {
     FILE *pointer;
