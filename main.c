@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "functions.h"
 
 const int ITEM_MAX_SIZE = 30;
 
