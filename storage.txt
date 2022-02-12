@@ -1,7 +1,7 @@
 Feijao
 10
 Arroz
-3
+8
 Batata
 9
 Biscoito

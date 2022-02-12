@@ -2,6 +2,10 @@
 
 Esse é um simples controle de estoque codificado em C. Parte da série "Programando com o Neps".
 
+Você pode conferir a live em que esse projeto foi feito clicando na imagem abaixo:
+
+[![Watch the video](https://img.youtube.com/vi/gjmffA9Sjfo/hqdefault.jpg)](https://youtu.be/gjmffA9Sjfo)
+
 Algumas funções implementadas são:
 
 - Listar itens
